@@ -1,4 +1,7 @@
 <?php
+// ini_set(error_reporting,E_ALL);
+// ini_set("display_errors",1);
+
 $request_body = file_get_contents('php://input');
 print "<pre>";
-print_r($request_body)
+print_r($request_body);
